@@ -1,9 +1,14 @@
+import gifAnimation.*;
+
 import ddf.minim.*;
 import ddf.minim.ugens.*;
 
 Minim minim;
 AudioOutput piano;
 PFont font1;
+
+int counter = 0;
+GifMaker ficherogif;
 
 // Array que contiene las notas desde Do en 4 hasta si 5
 String [] notas={"C3", "D3", "E3", "F3", "G3", "A3", "B3", "C4"};
@@ -18,6 +23,9 @@ void setup()
   font1 = loadFont("OCRAExtended-48.vlw");
   minim = new Minim(this);
   piano = minim.getLineOut();
+  
+  ficherogif = new GifMaker( this , "animacion.gif") ;
+  ficherogif.setRepeat(0);
 }
 
 void draw() {
@@ -35,6 +43,11 @@ void draw() {
     popStyle();
   }
   piano();
+  counter++;
+  if (counter > 5) {
+    ficherogif.addFrame();
+    counter = 0;
+  }
 }
 
 void piano() {
