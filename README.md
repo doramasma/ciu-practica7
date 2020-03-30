@@ -17,7 +17,6 @@ Correo: doramas.baez101@alu.ulpgc.es
 * [Dependencias](#dependencias) 
 * [Desarrollo](#desarrollo)
     * [Información general](#informaciónGeneral)
-    * [Filtros](#filtros)
 * [Referencias](#referencias)
 
 ## Introducción
@@ -42,15 +41,6 @@ Básicamente se ha realizado la asignación de una tecla a una nota (notación i
  - U key: Se corresponde con B3
  - I key: Se corresponde con C4
  
-
-### Filtros<a id="filtros"></a>
-Una vez pulsamos el botón enter, comenzará el funcionamiento de la aplicación en este caso dandonos 4 filtros. 
- - Efecto1: Se harán uso de las funciones de Imgproc para realizar un blur y un canny sobre la foto original y copiar dichos cambios en la segunda imagen.
- - Efecto2: Básicamente consiste en aplicar uno de los 3 colores RGB sobre la imagen original.
- - Efecto3: Básicamente consiste en aplicar uno de los 3 colores RGB sobre la imagen original.
- - Efecto4: Básicamente consiste en aplicar uno de los 3 colores RGB sobre la imagen original.
- 
- Además, de estos filtros se permite modificar la intensidad de los mismos. En cuanto a los colores, se vería la imagen más oscura o mas  rojiza,azulada o verdosa. En cuanto al primer efecto, se haría mas intenso siendo más notable los patrones o menos intensos.
 
 
 
