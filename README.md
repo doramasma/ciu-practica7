@@ -32,11 +32,15 @@ Es necesario disponer de minim para poder ejecutar la práctica. Ya que, se util
 
 ### Información general <a id="informaciónGeneral"></a>
 
-Básicamente se ha realizado la asignación de una tecla a una nota: 
- - Left key: change filter
- - Right key: change filter
- - Enter: Cambiar entre modo pausa y modo resume 
- - Mouse: Modificar la intensidad del filtro
+Básicamente se ha realizado la asignación de una tecla a una nota (notación inglesa): 
+ - Q key: Se corresponde con C3
+ - W key: Se corresponde con D3
+ - E key: Se corresponde con E3 
+ - R key: Se corresponde con F3
+ - T key: Se corresponde con G3
+ - Y key: Se corresponde con A3
+ - U key: Se corresponde con B3
+ - I key: Se corresponde con C4
  
 
 ### Filtros<a id="filtros"></a>
@@ -54,5 +58,5 @@ Una vez pulsamos el botón enter, comenzará el funcionamiento de la aplicación
 
 * [Guion de prácticas](https://cv-aep.ulpgc.es/cv/ulpgctp20/pluginfile.php/126724/mod_resource/content/22/CIU_Pr_cticas.pdf)
 * [GifAnimation](https://github.com/extrapixel/gif-animation)
-* [Adobe xd](https://www.adobe.com/es/products/xd.html)
+* [Minim](http://code.compartmental.net/tools/minim/)
 * [processing.org](https://processing.org/)
